@@ -1,0 +1,105 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="Estúdio de tatuagem em Brasília. Especialistas em realismo, fine line e mais.">
+<meta name="keywords" content="Tatuagem, Tattoo, Brasília, Estúdio de Tatuagem, Blackwork, Fine Line">
+          <title>La Mancha Tattoo</title>
+
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="style.css">
+      
+    
+      
+
+  </head>
+  <body>
+        <header>
+      <div class="container">
+        <h1 class="logo">
+        <a href="index.html">La Mancha Tattoo Studio</a>
+      </h1>
+        <nav>
+          <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="artistas.html">Portfólio</a></li>
+            <li><a href="artistas.html">Artistas</a></li>
+            <li><a href="contatos.html">Contato</a></li>
+          </ul>
+
+        </nav>
+        
+    </header>  
+    <section class="hero">
+    <div class="hero-content">
+
+      <!-- Imagem centralizada -->
+      <img src="img/logo.png" alt="Logo Tatuagem" class="hero-image" />
+
+      <h2>Arte na Pele com Atitude</h2>
+      <p>Bem-vindo(a) ao La Mancha Tattoo Studio. Onde a tatuagem é feita com alma, segurança, técnica e personalidade.</p>
+      <a href="contatos.html" class="btn">Agende sua sessão</a>
+    </div>
+  </section>
+
+    <section class="sobre">
+      <div class="container">
+        <h3>Tatuagem e Piercing</h3>
+        <p>Com mais de 3 anos de experiência, nossa equipe é formada por artistas e profissionais qualificados, especialistas em realismo, fine line, old school, black work, minimalismo e mais. Um ambiente seguro, higienizado e criativo para você eternizar sua arte na pele.</p>
+              <a href="artistas.html" class="btn">Tatuagem e Piercing</a>
+
+      </div>
+
+      <div>
+      <section class="parte4">
+      <div class="container">
+        <h4>Sobre o Estúdio</h4>
+      <p>Conheça mais sobre nossos seviços, história e trabalhos realizados em nosso estúdio</p>
+      <a href="sobre.html" class="btn">Saiba mais</a>
+    </div>
+  </section>
+
+
+    <!-- BANNER LATERAL ESQUERDA -->
+  <div class="banner-lateral" id="bannerLateral">
+    <button class="fechar-banner" onclick="fecharBanner()">×</button>
+    <div class="banner-conteudo">
+      <h4>🔥 Promoção Especial</h4>
+      <p>Agende sua tattoo até sexta<br> e ganhe 20% de desconto!</p>
+      <a href="contatos.html" class="btn-banner">Agendar Agora</a>
+    </div>
+  </div>
+
+  <!-- Chat Button -->
+  <button id="chat-toggle" onclick="toggleChat()">💬 Fale conosco</button>
+
+  <!-- Chat Box -->
+  <div id="chat-box">
+    <div id="chat-header">
+      Suporte Online
+      <span onclick="toggleChat()" id="chat-close">&times;</span>
+    </div>
+    <div id="chat-messages"></div>
+    <input type="text" id="chat-input" placeholder="Digite sua mensagem..." onkeypress="handleKeyPress(event)">
+  </div> 
+
+  <!-- POPUP INSTAGRAM -->
+<div id="popup-instagram" class="popup">
+  <div class="popup-content">
+    <span class="close-btn" onclick="fecharPopup()">&times;</span>
+    <h3>Siga a gente no Instagram!</h3>
+    <p>Acompanhe nossos trabalhos, promoções e novidades.</p>
+    <a href="https://www.instagram.com/lamanchatattooficial" target="_blank" class="btn-popup">Ir para o Instagram</a>
+  </div>
+</div>
+
+  <!-- RODAPÉ -->
+  <footer>
+      <p>&copy; 2025 La Mancha Tattoo Studio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
