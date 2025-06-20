@@ -39,7 +39,7 @@
 window.onload = function() {
   setTimeout(function() {
     document.getElementById('popup-instagram').style.display = 'flex';
-  }, 1000); // Abre depois de 3 segundos
+  }, 1500); // Abre depois de 3 segundos
 };
 
 function fecharPopup() {
